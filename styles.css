@@ -63,13 +63,6 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-}
-/* Add padding to the bottom of the content area */
-.content {
-    padding-bottom: 100px; /* Adjust the value as needed */
+    margin-top: 50px;
 }
 
-/* Alternatively, add margin to the footer */
-footer {
-    margin-top: 50px; /* Adjust the value as needed */
-}
