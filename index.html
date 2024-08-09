@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Dashboard</title>
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>COVID-19 Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="links.html">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="intro">
+            <p>Welcome to the COVID-19 Dashboard. Here you can view trends in global and UK-specific COVID-19 cases. Use the charts below to see the data over time.</p>
+        </section>
+
+        <!-- Chart for worldwide COVID-19 cases -->
+        <section class="chart-container">
+            <h2>Worldwide COVID-19 Confirmed Cases</h2>
+            <canvas id="worldwideChart"></canvas>
+        </section>
+
+        <!-- Chart for UK and Scotland COVID-19 cases -->
+        <section class="chart-container">
+            <h2>UK and Scotland COVID-19 Cases</h2>
+            <canvas id="ukScotlandChart"></canvas>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-content">
+            <p>Thank you for visiting our COVID-19 dashboard. Stay informed and stay safe.</p>
+            <p>For questions or feedback, <a href="mailto:info@covid-dashboard.com">email us</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
